@@ -1,0 +1,27 @@
+cat > /home/claude/taskflow/.gitignore << 'GITEOF'
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Logs
+*.log
+GITEOF
+
+echo "All files ready:"
+ls -la /home/claude/taskflow/
+Output
+
+All files ready:
+total 112
+drwxr-xr-x 2 root root  4096 Jun  3 07:54 .
+drwxr-xr-x 9 root root  4096 Jun  2 09:12 ..
+-rw-r--r-- 1 root root    79 Jun  3 07:54 .gitignore
+-rw-r--r-- 1 root root  1065 Jun  3 07:54 LICENSE
+-rw-r--r-- 1 root root  5658 Jun  3 07:54 README.md
+-rw-r--r-- 1 root root 31688 Jun  3 07:29 app.js
+-rw-r--r-- 1 root root 15919 Jun  2 13:21 index.html
+-rw-r--r-- 1 root root 39999 Jun  3 07:49 style.css
